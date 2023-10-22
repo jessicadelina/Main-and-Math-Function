@@ -16,3 +16,11 @@ def main():
 if __name__ == "__main__":
     print("Hello Main !")
     main()
+
+from math_function import multiply, divide
+
+result_multiply = multiply(5, 3)
+print(f"5 * 3 = {result_multiply}")
+
+result_divide = divide(10, 2)
+print(f"10 / 2 = {result_divide}")
